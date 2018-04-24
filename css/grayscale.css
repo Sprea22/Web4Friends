@@ -9,6 +9,7 @@ html {
    height: 100%; }
 
 body {
+  padding-top: 75px;
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
@@ -17,6 +18,19 @@ body {
   background-color: white;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
 
+.footer-section {
+  background-color: #8c8c8c;
+
+}
+  .carousel {
+    width: 100%
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 0px;
+    display: inline-block;
+  }
+
+h3 {display: inline;}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -48,6 +62,18 @@ img::selection {
 img::-moz-selection {
   background: transparent; }
 
+img.limit{
+      width:100%;
+      max-width:250px;
+}
+
+figure {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+
 .img-circle {
     height: 25%;
     width: 25%;
@@ -73,7 +99,9 @@ img::-moz-selection {
    .two {
      flex: 1 5 auto;
    }
-
+td {
+  background-color: #f2f2f2;
+}
 .container-flex {
  border-color: black;
  background-color: #f2f2f2;
@@ -146,3 +174,38 @@ img::-moz-selection {
       font-size: 50px; }
     .masthead .intro-body .intro-text {
       font-size: 18px; }
+
+
+      /* Style all font awesome icons */
+      .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 70px;
+          text-align: center;
+          text-decoration: none;
+      }
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      /* Set a specific color for each brand */
+
+      /* Facebook */
+      .fa-facebook {
+          background: #3B5998;
+          color: white;
+      }
+
+      /* Twitter */
+      .fa-twitter {
+          background: #55ACEE;
+          color: white;
+      }
+
+      /* Linkedin */
+      .fa-linkedin {
+        background: #0077B5;
+        color: white;
+      }
