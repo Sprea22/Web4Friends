@@ -23,7 +23,7 @@ body {
 
 }
   .carousel {
-    width: 100%
+    width: 100%;
     padding-left: 75px;
     padding-right: 75px;
     padding-bottom: 0px;
@@ -114,14 +114,18 @@ td {
   border-bottom: 1px solid black;
   background-color: white; }
   #mainNav .navbar-toggler {
-    font-size: 14px;
-    padding: 11px;
+    font-weight: 14px;
     color: black;
-    border: 1px solid black; }
+    border: 1px solid black; 
+    height: 50px;
+    width: 50px;
+  }
   #mainNav .navbar-brand {
-    font-weight: 700; }
+    font-weight: 700px; 
+  }
   #mainNav a {
-    color: black; }
+    color: black; 
+  }
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -133,26 +137,34 @@ td {
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
       background-color: white; }
+
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      -webkit-transition: background 0.3s linear, padding-top 0.3s linear, padding-bottom 0.3s;
+      -moz-transition: background 0.3s linear, padding-top 0.3s linear, padding-bottom 0.3s;
+      transition: background 0.3s linear, padding-top 0.3s linear, padding-bottom 0.3s;
       letter-spacing: 1px;
       border-bottom: none;
-      background: white; }
-      #mainNav.navbar-shrink {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: white; }
-      #mainNav .nav-link.active {
-        outline: none;
-        background-color: rgba(255, 255, 255, 0.3); }
-        #mainNav .nav-link.active:hover {
-          color: black; } }
+      background: white; 
+      height: 80px;
+    }
+  }   
+
+@media (max-width: 489px) {
+  #mainNav {
+    max-height: 80px;
+  }
+  #mainNav .navbar-toggler {
+    font-weight: 14px;
+    color: black;
+    border: 1px solid black; 
+    height: 50px;
+    width: 50px;
+  }
+
+}
 
 .masthead {
   display: table;
@@ -166,14 +178,18 @@ td {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; 
+}
   .masthead .intro-body {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle; 
+  }
     .masthead .intro-body .brand-heading {
-      font-size: 50px; }
+      font-size: 50px; 
+    }
     .masthead .intro-body .intro-text {
-      font-size: 18px; }
+      font-size: 18px; 
+    }
 
 
       /* Style all font awesome icons */

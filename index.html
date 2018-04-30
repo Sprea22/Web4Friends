@@ -13,29 +13,28 @@
     <link rel="shortcut icon" href="img/test3.png" type="favicon/ico" />
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
 
-  <body id="page-top">
-
+    
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Web4Friends </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+      <div class="container-fluid">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <span>Web4Friends</span> 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#home">Home</a>
@@ -54,17 +53,26 @@
       </div>
     </nav>
 
+    <body id="page-top">
     <!-- Intro Header -->
     <section id="home" class="content-section2 text-center container-fluid" background-color= "#f2f2f2">
-      <div class=" container-flex">
+      <div class="container-flex">
         <div class="row">
-          <div class="col container-flex">
-            <figure>
-        La Comedia, conosciuta soprattutto come Divina Commedia,[1] è un poema allegorico-didascalico[2] di Dante Alighieri, scritto in terzine incatenate di endecasillabi (poi chiamate per antonomasia terzine dantesche) in lingua volgare fiorentina.
-<br><br>Il titolo originale, con cui lo stesso autore designa il suo poema, fu Comedia (probabilmente pronunciata con accento tonico sulla i); e così è intitolata anche l'editio princeps del 1472. L'aggettivo «Divina» le fu attribuito dal Boccaccio e si trova solo a partire dall'edizione (famosa per questo motivo) a cura di Ludovico Dolce, stampata da Gabriel Giolito de' Ferrari nel 1555.
-          </figure>
+          <div class="col-sm-6 container-flex">
+            <p class="pt-40">
+                Internet ha completamente cambiato il nostro modo di vivere diventando la fonte primaria
+                di informazioni e rivoluzionando il modo in cui le imprese
+                operano e comunicano con i loro clienti.
+              <br>    
+               Il mondo online si muove a un ritmo velocissimo e non mostra alcun segno di rallentamento.
+               La presenza sul web è diventata per questo una parte fondamentale per il suo successo.
+               <br>
+               Un semplice sito web ti permette di ottenere visibilità e accessibilità come mai prima d'ora!
+               Perchè non unirsi a questa immensa community web? :)
+            </p>
         </div>
-        <div class="col container-flex carousel">
+        <!-- Slider -->
+        <div class="col-sm-6 container-flex carousel">
           <div id="cf" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div id="itm" class="carousel-item active">
@@ -86,9 +94,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      </div>
-
-
+        </div>
       </div>
     </div>
   </section>
@@ -101,21 +107,21 @@
     <section id="about" class="content-section2 text-center" background-color= "#f2f2f2";  style="margin-top:400px">
       <hr><h1> About us </h1>
 
-      <div class=" container-flex">
+      <div class="container-flex">
         <div class="row">
-          <div class="col container-flex">
+          <div class="col-sm container-flex">
             <figure>
                   <img src="img/sprea.jpg" class="img-circle limit"/>
                   <figcaption>
                     <br>  <h3> Andrea Spreafico </h3><br>
                     Ho una laurea triennale in informatica, <br>e sto tutt'ora frequentando la laurea magistrale<br> nello stesso ambito presso l'università di Milano Bicocca :)<br><br>
                   </figcaption>
-                  <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-custom fa-facebook img-circle"></a>
+                  <a href="#" class="fa fa-custom fa-twitter img-circle"></a>
+                  <a href="#" class="fa fa-custom fa-linkedin img-circle"></a>
               </figure>
           </div>
-          <div class="col container-flex">
+          <div class="col-sm container-flex">
             <figure>
                     <img src="img/ventu.jpg" class="img-circle limit"/>
               <figcaption>
@@ -123,12 +129,12 @@
                 Ho una laurea triennale in informatica, <br>e sto tutt'ora frequentando la laurea magistrale<br> nello stesso ambito presso l'università di Milano Bicocca :)<br><br>
 
             </figcaption>
-              <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-linkedin"></a>
+              <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-custom fa-facebook img-circle"></a>
+              <a href="#" class="fa fa-custom fa-twitter img-circle"></a>
+              <a href="#" class="fa fa-custom fa-linkedin img-circle"></a>
             </figure>
           </div>
-          <div class="col container-flex">
+          <div class="col-sm container-flex">
             <figure>
                     <img src="img/ribbo.jpg" class="img-circle limit"/>
               <figcaption>
@@ -136,9 +142,9 @@
                 Ho una laurea triennale in informatica, <br>e sto tutt'ora frequentando la laurea magistrale<br> nello stesso ambito presso l'università di Milano Bicocca :)<br><br>
 
             </figcaption>
-              <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-linkedin"></a>
+              <a href="https://www.facebook.com/andrea.spreafico.3" class="fa fa-custom fa-facebook img-circle"></a>
+              <a href="#" class="fa fa-custom fa-twitter img-circle"></a>
+              <a href="#" class="fa fa-custom fa-linkedin img-circle"></a>
             </figure>
           </div>
         </div>
@@ -154,8 +160,10 @@
                 <figure>
                       <img src="img/test1.jpg" class="img-circle limit"/>
                       <figcaption>
-                        <br>  <h3> Servizio #1</h3><br>
-                        Descrizione del servizio <br> Descrizione del servizio <br> Descrizione del servizio  :)<br><br>
+                        <h3>Realizzazione siti web</h3>
+                        <p>Possibilità di realizzare siti web statici e dinamici 
+                           per dare maggior visibilità alla tua impresa o al tuo cv.
+                      </p>
                       </figcaption>
                   </figure>
               </div>
@@ -163,18 +171,22 @@
                 <figure>
                         <img src="img/test2.png" class="img-circle limit"/>
                   <figcaption>
-                    <br>  <h3> Servizio #2 </h3><br>
-                    Descrizione del servizio <br> Descrizione del servizio <br> Descrizione del servizio  :)<br><br>
-
+                    <h3> Ottimizzazione siti web </h3>
+                    <p>Riorganizzazione del tuo sito web ai nuovi standard
+                       del web adattandolo graficamente a tutti i 
+                       dispositivi di ultima generazione.
+                    </p>                    
                 </figcaption>
                 </figure>
               </div>
               <div class="col container-flex">
                 <figure>
-                        <img src="img/test3.png" class="img-circle limit"/>
+                        <img src="img/test3.png" class="limit"/>
                   <figcaption>
-                    <br>  <h3> Servizio #3 </h3><br>
-                    Descrizione del servizio <br> Descrizione del servizio <br> Descrizione del servizio  :)<br><br>
+                    <h3>Soluzioni software personalizzate</h3>
+                    <p>Se hai qualche idea per la tua impresa ma non sai come realizzarla
+                       contattaci e ti aiuteremo a trovare la migliore soluzione
+                    </p>
 
                 </figcaption>
                 </figure>
@@ -185,30 +197,31 @@
 
     <!-- Contact Section -->
     <section id="contact" class="content-section2 text-center" >
-      <hr><h1> Contatti </h1>
-      <h4> Hai un'idea e vorresti collaborare insieme a noi? Non esitare a contattarci! </h4>
-      <div class=" container-flex">
-        <div class="row">
-          <div class="col container-flex">
-            <h3> Telefono </h3><hr>
-            <b>Andrea:      </b> +39 349 5692436    <br>
-            <b>Francesco:   </b>                    <br>
-            <b>Alessandro:  </b>                    <br>
+      <div class="container-flex pb-10">
+          <hr><h1> Contatti </h1>
+          <h4> Hai un'idea e vorresti collaborare insieme a noi? Non esitare a contattarci! </h4>
+          <div class="row">
+            <div class="col-sm text-center pb-1 0">
+              <span class="fa fa-phone"></span>
+              <span class="contact-text">+39 3495692436</span><br>
+              <span class="fa fa-envelope"></span>
+              <span class="contact-text">web4friends.contact@gmail.com</span>
             </div>
-            <br>            <br>
+          </div>
+      </div>  
 
-            <div class="col container-flex">
-              <h3> Email </h3><hr>
-              <b>Andrea:      </b> a.spreafico13@campus.unimib.it     <br>
-              <b>Francesco:   </b>                                   <br>
-              <b>Alessandro:  </b>                                   <br>
+  
+      <section id="footer" class="footer-section">
+          <div class="container">  
+            <div class="row">
+              <div class="col-sm pt-10">
+                <p class="footer-text">
+                  Developed by Web4Friends
+                </p>
+              </div>
             </div>
-        </div>
-    </div>
-  <br>  <br>
-    <section id="footer" class="footer-section">
-        <br>  <br>  <br>  <br>  <br>
-    </section>
+          </div>      
+      </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
